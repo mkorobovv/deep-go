@@ -63,7 +63,6 @@ func (q *CircularQueue) Front() int {
 	return q.values[q.front]
 }
 
-// Последний элемент (или -1 если пусто)
 func (q *CircularQueue) Back() int {
 	if q.Empty() {
 		return -1
